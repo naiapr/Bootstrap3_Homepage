@@ -2,6 +2,90 @@ body{
     font-family: 'Barlow', sans-serif;
     font-family: 'Fraunces', serif;
     font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    Font-size: 12px;
+}
+.nav-header{
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.673);
+}
+.nav-a{
+    color: white;
+    font-weight: 700;
+}
+.nav-a:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid   hsl(0, 0%, 100%);
+    display: inline;
+}
+.carousel-h1{
+    color: black;
+    font-size: 32px;
+    font-weight:900;
+}
+.carousel-p{
+    color: black;
+    text-align: left;
+    line-height: 2;
+    font-weight: 700;
+}
+.carousel-a{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px; 
+}
+.carousel-a:hover{
+    text-decoration: none;
+    color: hsl(0, 0%, 27%);
+}
+.control-div{
+    position: relative;
+    margin-top: 76px;
+    width: 93px;
+    height:60px ;
+    background: black;
+}
+
+.h1-roda{
+    letter-spacing: 5px;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:900;
+}
+.p-roda{
+    color: black;
+    text-align: left;
+    line-height: 2;
+    font-weight: 700;
+}
+@media screen and (max-width: 780px) {
+    .icon-car{
+        display: none;
+    }
+    .control-div{
+        display: none;
+    }
+    .img1-desk{
+        display: none; 
+    }
+    .img2-desk{
+        display: none; 
+    }
+    
+    
+}
+@media screen and (min-width: 1440px){
+    .img1-mob{
+        display: none; 
+    }
+    .img2-mob{
+        display: none; 
+    }
 }
